@@ -1,0 +1,36 @@
+.body{
+    position: absolute;
+    
+    left: 25%;
+    h1{
+        text-align: center;
+    }
+}
+#ourTasks{
+    display: inline-block;
+    width: 100%;
+    p{
+        margin: 0 ;
+        width: 100%;
+    }
+}
+.input_search{
+    border: 1px solid red;
+    
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 5px;
+    border: 1px solid red;
+}
+#input_add{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+
+    input{
+        width: 100%;
+    }
+}
